@@ -5,13 +5,10 @@
     color: #fff;
     clip-path: polygon();
 }
-.banner-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
+.wrapper{
+  margin-left: -33px;
 }
-
-
 /*text animation*/
 .wrapper .daynamic-txt{
   height: 40px;
@@ -29,7 +26,7 @@
   margin: 0px;
   font-size: 30px;
   font-weight: bold;
-  color: #f52225;
+  color:orange;
   position: relative;
   top: 0;
   animation: slide 14s steps(4) infinite;
@@ -50,7 +47,7 @@
   height: 100%;
   width: 100%;
   background-color:#070707;
-  border-left: 2px solid #f52225;
+  border-left: 2px solid orange;
   animation: typing 2.5s steps(22) infinite;
 }
 

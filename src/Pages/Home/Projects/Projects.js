@@ -28,10 +28,10 @@ const Projects = () => {
     return (
         <div className='slider-container'>
             <div className='text-center text-light'>
-                <h4>My Portfolio</h4>
+                <h4 className="py-4">My Portfolio</h4>
             </div>
             <Row>
-                <Col sm={4}>
+                <Col sm={12} md={4}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>
@@ -53,7 +53,7 @@ const Projects = () => {
                         </div>
                         <Accordion>
                             <Accordion.Item eventKey="0" className='accordion-bg'>
-                                <Accordion.Header className='accordion-bg bg-dark'>View Details</Accordion.Header>
+                                <Accordion.Header className='accordion-bg'>View Details</Accordion.Header>
                                 <Accordion.Body>
                                     Features:
                                     <ol>
@@ -77,7 +77,7 @@ const Projects = () => {
                         </Accordion>
                     </div>
                 </Col>
-                <Col sm={4}>
+                <Col sm={12} md={4}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>
@@ -120,7 +120,7 @@ const Projects = () => {
                         </Accordion>
                     </div>
                 </Col>
-                <Col sm={4}>
+                <Col sm={12} md={4}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>

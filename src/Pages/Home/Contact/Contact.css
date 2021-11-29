@@ -1,12 +1,24 @@
 .form-container{
-     background-color: #191c26;
+    background-color: #191c26;
     color: #fff;
+    padding: 15px 20px;
 }
 .contact-card{
     background-color: #18181a;
+    padding:6px 10px;
+    margin:5px;
     color: #fff;
+    border-radius: 5px;
 }
 .form-container input,textarea{
-    background:transparent;
+    background:transparent !important;
     margin: 5px;
+    color: #fff !important;
+}
+.form-btn{
+    padding: 10px 20px;
+    background:transparent;
+    color:#fff;
+    border:1px solid #fff;
+    border-radius: 30px;
 }

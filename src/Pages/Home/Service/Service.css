@@ -1,9 +1,8 @@
 .service-container{
     background-color: #191c26;
-    padding:50px;
+    padding:20px 40px;
 }
 .custom-card{
-    box-shadow: 0 0 10px black;
     border: 1px solid rgb(255,255,255);
     padding:15px 5px;
     border-radius: 5px;

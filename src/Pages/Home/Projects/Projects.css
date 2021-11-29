@@ -1,8 +1,7 @@
 .slider-container{
     width: 100%;
-    height: 400px;
     background-color: #191c26;
-    padding: 10px;
+    padding:25px;
 }
 .slider-container img{
     width: 100%;
@@ -13,7 +12,7 @@
     border-radius: 5px;
     background-color: #18181a;
 }
-.accordion-bg{
-     background-color: #18181a;
+.accordion-button{
+     background-color: #18181a !important;
      color: #fff;
 }

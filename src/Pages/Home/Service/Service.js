@@ -14,7 +14,7 @@ const Service = () => {
             </div>
             <Container>
                 <Row>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
@@ -25,7 +25,7 @@ const Service = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
@@ -36,7 +36,7 @@ const Service = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
@@ -47,7 +47,7 @@ const Service = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
@@ -58,7 +58,7 @@ const Service = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
@@ -69,7 +69,7 @@ const Service = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col sm={4}>
+                    <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
