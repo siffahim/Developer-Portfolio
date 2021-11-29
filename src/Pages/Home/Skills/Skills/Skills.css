@@ -1,0 +1,12 @@
+.skills-container{
+    background-color: #191c26;
+    padding:40px;
+}
+.nested-link{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+    color: #fff;
+}
