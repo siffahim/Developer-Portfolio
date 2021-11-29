@@ -7,4 +7,9 @@
     padding: 10px;
     border-radius: 50px;
     color: #fff;
+    transition:all 0.3s;
+}
+.custom-btn:hover{
+    background-color:orange;
+    color: #fff;
 }

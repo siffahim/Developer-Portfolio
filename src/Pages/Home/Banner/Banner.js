@@ -22,7 +22,7 @@ const Banner = () => {
                             </ul>
                         </div>
                         <p className='mb-5 text-muted'>A highly skilled developer with strong confidence with high quality and high-performance web applications seeks the rules of junior Software Developer at JavaScript, React, Node, andmodern JavaScript libraries.</p>
-                        <a href="#d" className='custom-btn'>Get Resume <i class="fas fa-download"></i></a>
+                        <a href="/SAIFUL ISLAM.pdf" download className='custom-btn'>Get Resume <i class="fas fa-download"></i></a>
                     </Col>
                     <Col sm={12} md={5}>
                         <img src={img} width='80%' alt="" />

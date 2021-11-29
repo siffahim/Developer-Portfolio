@@ -15,7 +15,7 @@ const Navigation = () => {
                     <Nav.Link href="#pricing">Blog</Nav.Link>
                     <Nav.Link href="#pricing">Contact</Nav.Link>
                 </Nav>
-                <a href="/SAIFUL ISLAM.pdf" download className='custom-btn' >Dowload <i class="fas fa-download"></i></a>
+                <a href="/SAIFUL ISLAM.pdf" download className='custom-btn' >Dowload <i class="fas fa-download icon"></i></a>
             </Navbar.Collapse>
         </Navbar>
     );

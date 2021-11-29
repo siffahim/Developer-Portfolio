@@ -18,7 +18,7 @@ const Service = () => {
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
                                 <h5>WEB DESIGN</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                                <p>Design Make Easy & Ueser friendly Desing.</p>
                             </div>
                             <div>
                                 <img src={pic1} alt="" />
@@ -28,8 +28,8 @@ const Service = () => {
                     <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
-                                <h5>WEB DESIGN</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur</p>
+                                <h5>RESPONSIVE & DESIGN</h5>
+                                <p></p>
                             </div>
                             <div>
                                 <img src={pic2} alt="" />
@@ -39,40 +39,7 @@ const Service = () => {
                     <Col sm={12} md={4}>
                         <div className='d-flex align-items-center justify-content-between custom-card'>
                             <div>
-                                <h5>WEB DESIGN</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur</p>
-                            </div>
-                            <div>
-                                <img src={pic3} alt="" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='d-flex align-items-center justify-content-between custom-card'>
-                            <div>
-                                <h5>WEB DESIGN</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur</p>
-                            </div>
-                            <div>
-                                <img src={pic1} alt="" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='d-flex align-items-center justify-content-between custom-card'>
-                            <div>
-                                <h5>WEB DESIGN</h5>
-                                <p>Lorem ipsum dolor sit amet consectetur</p>
-                            </div>
-                            <div>
-                                <img src={pic2} alt="" />
-                            </div>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='d-flex align-items-center justify-content-between custom-card'>
-                            <div>
-                                <h5>WEB DESIGN</h5>
+                                <h5>WEB DEVELOPMENT</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur</p>
                             </div>
                             <div>

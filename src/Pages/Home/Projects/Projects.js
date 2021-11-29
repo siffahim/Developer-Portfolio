@@ -47,7 +47,7 @@ const Projects = () => {
                                 <img src={jewell4} alt="" />
                             </div>
                         </Slider>
-                        <div className='text-center text-light pt-3'>
+                        <div className='ps-2 text-light pt-3'>
                             <h4>Jewellery Shop</h4>
                             <p>Services I provide wide range of digital services</p>
                         </div>
@@ -90,8 +90,8 @@ const Projects = () => {
                                 <img src={tour3} alt="" />
                             </div>
                         </Slider>
-                        <div className='text-center text-light pt-3'>
-                            <h4>Jewellery Shop</h4>
+                        <div className='ps-2 text-light pt-3'>
+                            <h4>Travel Tourism</h4>
                             <p>Services I provide wide range of digital services</p>
                         </div>
                         <Accordion>
@@ -133,8 +133,8 @@ const Projects = () => {
                                 <img src={food3} alt="" />
                             </div>
                         </Slider>
-                        <div className='text-center text-light pt-3'>
-                            <h4>Jewellery Shop</h4>
+                        <div className='ps-2 text-light pt-3'>
+                            <h4>Healthcare</h4>
                             <p>Services I provide wide range of digital services</p>
                         </div>
                         <Accordion>

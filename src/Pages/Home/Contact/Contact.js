@@ -5,20 +5,20 @@ import './Contact.css';
 const Caontact = () => {
     return (
         <div className='form-container'>
-            <h2 className='text-center py-4'>Contact Me</h2>
+            <h4 className='text-center py-4'>Contact Me</h4>
             <Row>
                 <Col sm={12} md={3}>
                     <div className='contact-card'>
-                        <h6>Phone:</h6>
+                        <h2><i class="fas fa-phone-alt"></i></h2>
                         <p>01860760170</p>
                     </div>
                     <div className='contact-card'>
-                        <h6>Email:</h6>
+                        <h2><i class="fas fa-envelope"></i></h2>
                         <p>siffahim25@gmail.com</p>
                     </div>
                     <div className='contact-card'>
-                        <h6>Phone:</h6>
-                        <p>01860760170</p>
+                        <h2><i class="fas fa-map-marked-alt"></i></h2>
+                        <p>Mogbazer-12,Dhaka,Bangladesh</p>
                     </div>
                 </Col>
                 <Col sm={12} md={9}>
