@@ -15,7 +15,7 @@ const Skills = () => {
                 <Link to='/programming' className='nested-link'>Programming</Link>
                 <Link to='/others' className='nested-link'>Others</Link>
                 <Link to='/tools' className='nested-link'>Tools</Link>
-
+                <br /><br /><br />
                 <Routes>
                     <Route path='/web' element={<Web />} />
                     <Route path='/programming' element={<Programming />} />

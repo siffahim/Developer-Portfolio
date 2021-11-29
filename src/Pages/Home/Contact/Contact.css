@@ -1,0 +1,12 @@
+.form-container{
+     background-color: #191c26;
+    color: #fff;
+}
+.contact-card{
+    background-color: #18181a;
+    color: #fff;
+}
+.form-container input,textarea{
+    background:transparent;
+    margin: 5px;
+}
