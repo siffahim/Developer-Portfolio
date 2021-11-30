@@ -17,3 +17,9 @@
     background-color: rgba(224, 219, 210, 0.267);
     color: #fff;
 }
+
+@media only screen and (max-width:688px) {
+    .nested-link{
+        margin: 5px;
+    }
+}

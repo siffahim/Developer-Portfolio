@@ -1,13 +1,17 @@
-import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import React, { useEffect, useState } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import healtcare from '../../../images/projects/food-1.png';
-import jewellery from '../../../images/projects/jewellery-1.png';
-import tourism from '../../../images/projects/Tourism.png';
+import Project from '../../Project/Project';
 import './Projects.css';
 
 const Projects = () => {
+    const [projects, setProjects] = useState([]);
+    useEffect(() => {
+        fetch('/fackDb.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    }, [])
     return (
         <div className='slider-container'>
             <div className='text-center mb-5'>
@@ -16,60 +20,12 @@ const Projects = () => {
             </div>
             <Container>
                 <Row className='g-4'>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={jewellery} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={tourism} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={healtcare} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={jewellery} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={tourism} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
-                    <Col sm={12} md={4}>
-                        <div className='project-card'>
-                            <div className='overflow-hidden rounded'>
-                                <img src={healtcare} alt="" />
-                            </div>
-                            <p className='txt'>Development</p>
-                            <p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p>
-                        </div>
-                    </Col>
+                    {
+                        projects.map(project => <Project
+                            key={project.id}
+                            project={project}
+                        />)
+                    }
                 </Row>
             </Container>
         </div>

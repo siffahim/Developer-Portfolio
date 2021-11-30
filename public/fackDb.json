@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Jewellery",
+        "img1": "https://i.ibb.co/LgxRjbt/jewellery-1.png",
+        "img2": "https://i.ibb.co/8PBnLKv/jewellery-3.png",
+        "img3": "https://i.ibb.co/M7DVfWM/jewellery-2.png",
+        "Technology": "React JS, react- router, React - Rating, React API, firebase, mongo dB,Node JS, Express JS, React Bootstrap, Heroku, Context API, Material UI.",
+        "features1": "mplemented user interface employing React JS with vanilla CSS, react-bootstrap,Material UI, React- Rating, AOS animation.",
+        "features2": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
+        "features3": " Handling re-direct system with React-Router.",
+        "features4": "Manage dashboard, control admin panel by checking admin and user role."
+    },
+    {
+        "id": 2,
+        "name": "Tourism",
+        "img1": "https://i.ibb.co/zrmZ2Kr/Tourism.png",
+        "img2": "https://i.ibb.co/tDCZR6r/Tourism-3.png",
+        "img3": "https://i.ibb.co/syDcpd1/Tourism-2.png",
+        "Technology": "React JS, React-Router, React API, Firebase, Mongo Db, Node JS, Express JS, React Bootstrap, Heroku, Context API",
+        "features1": "Implemented user interface employing React JS with vanilla CSS, React-Bootstrap, AOS animation",
+        "features2": "Integrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
+        "features3": "Handling re-direct system with react-router.",
+        "features4": "Developed Rest API backend with Express and Mongo DB for servicer technology."
+    },
+    {
+        "id": 3,
+        "name": "Healthcare",
+        "img1": "https://i.ibb.co/NW07xKM/food-1.png",
+        "img2": "https://i.ibb.co/tqGb6qP/food-2.png",
+        "img3": "https://i.ibb.co/7V0gkdQ/food-3.png",
+        "Technology": "React Js,React Router,Firebase,React- Bootstrap,Vanilla Css,Media Query Of Vanilla Css",
+        "features1": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
+        "features2": " Handling re-direct system with React-Router.",
+        "features3": "Booking doctors,writing blogs",
+        "features4": "Animation website"
+    }
+]

@@ -10,7 +10,7 @@ const Skills = () => {
     return (
         <div className='text-center skills-container'>
             <h4 className='py-4 text-light text'>My SKills</h4>
-            <div className='d-flex flex-nowrap justify-content-center'>
+            <div className='d-flex flex-wrap justify-content-center'>
                 <button onClick={() => setSkills('web')} className='nested-link'>Web</button>
                 <button onClick={() => setSkills('programming')} className='nested-link'>Programming</ button>
                 <button onClick={() => setSkills('others')} className='nested-link'>Others</button>

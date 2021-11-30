@@ -1,0 +1,9 @@
+.slider-card{
+    border-radius: 10px;
+    transition: 0.4s;
+    padding: 30px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    position: relative;
+    transition: 0.4s;
+}
