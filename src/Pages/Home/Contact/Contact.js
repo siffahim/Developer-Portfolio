@@ -29,18 +29,18 @@ const Caontact = () => {
                         <form action="https://formsubmit.co/siffahim25@gmail.com" method="POST">
                             <Row>
                                 <Col sm={12} md={6}>
-                                    <input type="text" placeholder='Name' className='form-control' />
+                                    <input type="text" placeholder='Name' className='form-control' required />
                                     <input type="hidden" name="_next" value="https://thankyouforsend.netlify.app/" />
                                     <input type="hidden" name="_captcha" value="false" />
                                 </Col>
                                 <Col sm={12} md={6}>
-                                    <input type="email" placeholder='Email' className='form-control' />
+                                    <input type="email" placeholder='Email' className='form-control' required />
                                 </Col>
                                 <Col sm={12} md={6}>
-                                    <input type="number" placeholder='Number' className='form-control' />
+                                    <input type="number" placeholder='Number' className='form-control' required />
                                 </Col>
                                 <Col sm={12} md={6}>
-                                    <input type="text" placeholder='Subject' className='form-control' />
+                                    <input type="text" placeholder='Subject' className='form-control' required />
                                 </Col>
                             </Row>
                             <textarea name='message' placeholder='Message' rows="5" className='form-control custom-bg'></textarea><br />

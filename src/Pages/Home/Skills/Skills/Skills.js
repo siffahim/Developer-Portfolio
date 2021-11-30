@@ -1,5 +1,4 @@
-import React from 'react';
-import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import React, { useState } from 'react';
 import Others from '../Others/Others';
 import Programming from '../Programming/Programming';
 import Tools from '../Tools/Tools';
@@ -7,25 +6,29 @@ import Web from '../Web/Web';
 import './Skills.css';
 
 const Skills = () => {
+    const [skills, setSkills] = useState('web');
     return (
         <div className='text-center skills-container'>
             <h4 className='py-4 text-light text'>My SKills</h4>
-            <Router>
-                <div className='d-flex flex-nowrap justify-content-center'>
-                    <Link to='/web' className='nested-link'>Web</Link>
-                    <Link to='/programming' className='nested-link'>Programming</Link>
-                    <Link to='/others' className='nested-link'>Others</Link>
-                    <Link to='/tools' className='nested-link'>Tools</Link>
-                </div>
-                <br /><br /><br />
-                <Routes>
-                    <Route path='/' element={<Web />} />
-                    <Route path='/web' element={<Web />} />
-                    <Route path='/programming' element={<Programming />} />
-                    <Route path='/others' element={<Others />} />
-                    <Route path='/tools' element={<Tools />} />
-                </Routes>
-            </Router>
+            <div className='d-flex flex-nowrap justify-content-center'>
+                <button onClick={() => setSkills('web')} className='nested-link'>Web</button>
+                <button onClick={() => setSkills('programming')} className='nested-link'>Programming</ button>
+                <button onClick={() => setSkills('others')} className='nested-link'>Others</button>
+                <button onClick={() => setSkills('tools')} className='nested-link'>Tools</button>
+            </div>
+            <br /><br /><br />
+            {
+                skills === 'web' && <Web />
+            }
+            {
+                skills === 'programming' && <Programming />
+            }
+            {
+                skills === 'others' && <Others />
+            }
+            {
+                skills === 'tools' && <Tools />
+            }
         </div>
     );
 };

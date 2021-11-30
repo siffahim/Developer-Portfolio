@@ -9,7 +9,7 @@ const Navigation = () => {
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav className="mx-auto">
-                    <Nav.Link className='custom-btn' href="#home">About</Nav.Link>
+                    <Nav.Link className='custom-btn' href="#about">About</Nav.Link>
                     <Nav.Link className='custom-btn' href="#features">Resume</Nav.Link>
                     <Nav.Link className='custom-btn' href="#pricing">Works</Nav.Link>
                     <Nav.Link className='custom-btn' href="#pricing">Blog</Nav.Link>

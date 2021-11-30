@@ -37,7 +37,9 @@
 }
 
 .form-btn{
+    text-decoration: none;
     padding: 10px 20px;
+    display: inline-block;
     background:transparent;
     color:#fff;
     border:1px solid #fff;
@@ -47,6 +49,7 @@
 }
 .form-btn:hover{
     background-color: rgba(224, 219, 210, 0.267);
+    color: #fff;
 }
 .icon{
     color: #f9004d;

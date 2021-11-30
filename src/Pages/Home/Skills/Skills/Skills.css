@@ -4,6 +4,7 @@
    padding:40px;
 }
 .nested-link{
+    background:transparent;
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px 20px;

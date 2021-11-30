@@ -1,5 +1,24 @@
 .about-container{
-     background-color: #191c26;
-    color: #fff;
-    padding: 15px 40px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
+    padding:40px;
+}
+.about{
+    border-radius: 6px;
+    transition: 0.4s;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.about-img img{
+    opacity: 0.9;
+    transition: 0.4s;
+    animation: jump 3s infinite;
+}
+@keyframes jump {
+    0%,100%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(10px)
+    }
 }
