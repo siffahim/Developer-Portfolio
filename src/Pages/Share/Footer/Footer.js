@@ -11,7 +11,7 @@ const Footer = () => {
     }
     return (
         <div style={footer}>
-            <p>Design and Developed by - Fahim</p>
+            <p className='text-muted'>Design and Developed by - Fahim</p>
         </div>
     );
 };

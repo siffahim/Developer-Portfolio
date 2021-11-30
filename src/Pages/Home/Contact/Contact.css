@@ -4,21 +4,62 @@
     padding: 15px 20px;
 }
 .contact-card{
-    background-color: #18181a;
-    padding:6px 10px;
+    background-color: #2f2f30;
+    padding:5px 10px;
     margin:5px;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 3px;
 }
 .form-container input,textarea{
     background:transparent !important;
     margin: 5px;
     color: #fff !important;
+    outline: none !important;
+    transition:all 0.5s;
 }
+.form-container input:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.527);
+    border: 1px solid #fff;
+}
+.form-container textarea:hover{
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.527);
+    border: 1px solid #fff;
+}
+
 .form-btn{
     padding: 10px 20px;
     background:transparent;
     color:#fff;
     border:1px solid #fff;
     border-radius: 30px;
+    font-weight: bold;
+    transition:all 0.3s;
+}
+.form-btn:hover{
+    background-color: rgba(224, 219, 210, 0.267);
+}
+.icon{
+    color: orange;
+}
+
+.text{
+
+}
+.text::before{
+    display: inline-block;
+    margin: 0 20px 8px 0px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color:#f9004d;
+    width: 80px;
+}
+.text::after{
+    display: inline-block;
+    margin: 0 20px 8px 20px;
+    height: 3px;
+    content: " ";
+    text-shadow: none;
+    background-color:#f9004d;
+    width: 80px;
 }

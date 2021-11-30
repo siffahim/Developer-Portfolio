@@ -5,14 +5,24 @@
 }
 .slider-container img{
     width: 100%;
-    height:200px;
+    height:240px;
+    border-radius:5px 5px 0 0;
 }
 
 .slide-card{
     border-radius: 5px;
-    background-color: #18181a;
+    background-color: #51515c;
+    margin:13px;
 }
 .accordion-button,.accordion-body{
      background-color: #18181a !important;
-     color: #fff;
+     outline: none !important;
+     color: rgb(131, 126, 126);
+     border-radius:5px;
+}
+.live-site{
+    color: rgb(240, 175, 53);
+}
+.live-site:hover{
+    color: #fff;
 }

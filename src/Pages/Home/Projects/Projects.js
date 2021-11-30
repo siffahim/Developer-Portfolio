@@ -9,7 +9,6 @@ import food3 from '../../../images/projects/food-3.png';
 import jewell1 from '../../../images/projects/jewellery-1.png';
 import jewell2 from '../../../images/projects/jewellery-2.png';
 import jewell3 from '../../../images/projects/jewellery-3.png';
-import jewell4 from '../../../images/projects/jewellery-4.png';
 import tour2 from '../../../images/projects/Tourism-2.png';
 import tour3 from '../../../images/projects/Tourism-3.png';
 import tour1 from '../../../images/projects/Tourism.png';
@@ -28,10 +27,10 @@ const Projects = () => {
     return (
         <div className='slider-container'>
             <div className='text-center text-light'>
-                <h4 className="py-4">My Portfolio</h4>
+                <h4 className="py-4 text">My Portfolio</h4>
             </div>
             <Row>
-                <Col sm={12} md={4}>
+                <Col sm={12} md={6}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>
@@ -43,13 +42,12 @@ const Projects = () => {
                             <div>
                                 <img src={jewell3} alt="" />
                             </div>
-                            <div>
-                                <img src={jewell4} alt="" />
-                            </div>
+
                         </Slider>
                         <div className='ps-2 text-light pt-3'>
-                            <h4>Jewellery Shop</h4>
+                            <h6>Jewellery Shop</h6>
                             <p>Services I provide wide range of digital services</p>
+                            <a target="_blank" href='https://jewellery-ec2de.web.app/' className='live-site'>Veiw Site <i class="fas fa-expand-alt"></i></a>
                         </div>
                         <Accordion>
                             <Accordion.Item eventKey="0" className='accordion-bg'>
@@ -77,7 +75,7 @@ const Projects = () => {
                         </Accordion>
                     </div>
                 </Col>
-                <Col sm={12} md={4}>
+                <Col sm={12} md={6}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>
@@ -91,8 +89,9 @@ const Projects = () => {
                             </div>
                         </Slider>
                         <div className='ps-2 text-light pt-3'>
-                            <h4>Travel Tourism</h4>
+                            <h6>Travel Tourism</h6>
                             <p>Services I provide wide range of digital services</p>
+                            <a href='https://tourism-75e22.web.app/' target='_blank' className='live-site'>Veiw Site <i class="fas fa-expand-alt"></i></a>
                         </div>
                         <Accordion>
                             <Accordion.Item eventKey="0" className='accordion-bg'>
@@ -120,7 +119,7 @@ const Projects = () => {
                         </Accordion>
                     </div>
                 </Col>
-                <Col sm={12} md={4}>
+                <Col sm={12} md={6}>
                     <div className='slide-card'>
                         <Slider {...settings}>
                             <div>
@@ -134,8 +133,9 @@ const Projects = () => {
                             </div>
                         </Slider>
                         <div className='ps-2 text-light pt-3'>
-                            <h4>Healthcare</h4>
+                            <h6>Healthcare</h6>
                             <p>Services I provide wide range of digital services</p>
+                            <a href='https://healthcare-f0a15.web.app/' target="_blank" className='live-site'>Veiw Site <i class="fas fa-expand-alt"></i></a>
                         </div>
                         <Accordion>
                             <Accordion.Item eventKey="0" className='accordion-bg'>

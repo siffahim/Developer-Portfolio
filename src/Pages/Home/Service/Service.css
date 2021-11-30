@@ -1,10 +1,30 @@
 .service-container{
-    background-color: #191c26;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
     padding:20px 40px;
 }
 .custom-card{
-    border: 1px solid rgb(255,255,255);
-    padding:15px 5px;
-    border-radius: 5px;
-    margin: 10px;
+    border-radius: 6px;
+    transition: 0.4s;
+    padding: 40px;
+    height: 250px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    position: relative;
+    transition: 0.4s;
+}
+.service-sign{
+    display: none;
+    transition: 0.4s;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.custom-card:hover{
+    transform: translateY(-10px);
+}
+.custom-card:hover .service-sign{
+    display: block;
+}
+.txt{
+    color: #f9004d;
 }

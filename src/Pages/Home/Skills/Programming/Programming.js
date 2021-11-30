@@ -1,22 +1,14 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import js from '../../../../images/js.png';
+import { Container } from 'react-bootstrap';
 
 const Programming = () => {
     return (
         <Container>
-            <Row>
-                <Col sm={3}>
-                    <div className='skill-card'>
-                        <img width='40px' height='40px' src={js} alt="" />
-                        <div className='d-flex justify-content-between'>
-                            <h6 className='text-bold text-light'>React</h6>
-                            <h6 className='text-bold text-light'>75%</h6>
-                        </div>
-                        <div className='prog'></div>
-                    </div>
-                </Col>
-            </Row>
+            <ul className='list-container'>
+                <li className='javascript'>JavaScript</li>
+                <li className='typescript'>Typescript</li>
+                <li className='python'>Python</li>
+            </ul>
         </Container>
     );
 };

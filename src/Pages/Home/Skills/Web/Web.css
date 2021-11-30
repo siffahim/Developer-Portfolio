@@ -1,12 +1,97 @@
-.skill-card{
-    padding:15px 5px;
-    border-radius: 5px;
-    background-color:rgb(56, 55, 55);
-    margin: 5px;
+
+.list-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: left;
 }
-.prog{
+
+@media  only screen and (max-width:688px){
+    .list-container{
+         grid-template-columns: repeat(1,1fr);
+    }
+}
+
+.list-container li{
+    list-style: none;
+    margin: 20px;
+    position: relative;
+    color: #fff;
+}
+.list-container li::before{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
     width: 100%;
-    height: 5px;
-    border-radius: 5px;
-    background-color:#fff;
+    height:50%;
+    background-color:rgb(189, 182, 182);
+    border-radius: 12px;
+    left: -5px;
+}
+.list-container li::after{
+    content: '';
+    position: absolute;
+    top:calc(100% + 5px);
+    width: 0%;
+    height:50%;
+    background-color:#565658;
+    border-radius: 12px;
+    left: -6px;
+}
+/*set percentage*/
+.list-container li.react::after{
+    width: 80%;
+}
+.list-container li.express::after{
+    width: 50%;
+}
+.list-container li.node::after{
+    width: 60%;
+}
+.list-container li.mongoDb::after{
+    width: 70%;
+}
+.list-container li.material::after{
+    width: 80%;
+}
+.list-container li.tailwind::after{
+    width: 60%;
+}
+.list-container li.bootstrap::after{
+    width: 90%;
+}
+.list-container li.javascript::after{
+    width: 70%;
+}
+.list-container li.typescript::after{
+    width: 40%;
+}
+.list-container li.python::after{
+    width: 20%;
+}
+.list-container li.native::after{
+    width: 20%;
+}
+.list-container li.next::after{
+    width: 65%;
+}
+.list-container li.sass::after{
+    width: 40%;
+}
+.list-container li.styleComponent::after{
+    width: 60%;
+}
+.list-container li.git::after{
+    width: 80%;
+}
+.list-container li.firebase::after{
+    width: 60%;
+}
+.list-container li.heroku::after{
+    width: 50%;
+}
+.list-container li.netlify::after{
+    width: 70%;
+}
+.list-container li.github::after{
+    width: 80%;
 }

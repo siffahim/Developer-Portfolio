@@ -9,12 +9,14 @@ import './Skills.css';
 const Skills = () => {
     return (
         <div className='text-center skills-container'>
-            <h4 className='py-4 text-light'>My SKills</h4>
+            <h4 className='py-4 text-light text'>My SKills</h4>
             <Router>
-                <Link to='/web' className='nested-link'>Web</Link>
-                <Link to='/programming' className='nested-link'>Programming</Link>
-                <Link to='/others' className='nested-link'>Others</Link>
-                <Link to='/tools' className='nested-link'>Tools</Link>
+                <div className='d-flex flex-nowrap justify-content-center'>
+                    <Link to='/web' className='nested-link'>Web</Link>
+                    <Link to='/programming' className='nested-link'>Programming</Link>
+                    <Link to='/others' className='nested-link'>Others</Link>
+                    <Link to='/tools' className='nested-link'>Tools</Link>
+                </div>
                 <br /><br /><br />
                 <Routes>
                     <Route path='/' element={<Web />} />

@@ -1,12 +1,17 @@
 .skills-container{
-    background-color: #191c26;
-    padding:10px 0;
+   background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
 }
 .nested-link{
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px 20px;
     margin-right: 10px;
-    border-radius: 20px;
+    border-radius: 50px;
+    color: #fff;
+    transition:all 0.3s;
+}
+.nested-link:hover{
+    background-color: rgba(224, 219, 210, 0.267);
     color: #fff;
 }
