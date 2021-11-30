@@ -1,28 +1,52 @@
 .slider-container{
     width: 100%;
-    background-color: #191c26;
-    padding:25px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
+    padding:40px 40px;
 }
-.slider-container img{
+.project-card{
+    border-radius: 10px;
+    transition: 0.4s;
+    padding: 20px;
+    height: 360px;
+    background:linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    position: relative;
+    transition: 0.4s;
+}
+/* .project-overview{
+     width: 100%;
+     height: 200px;
+     background:url('../../../images/screencapture-jewellery-ec2de-web-app-2021-11-27-00_08_08.png');
+     background-size: cover;
+     background-position: top;
+     opacity: 0.9;
+     transition: all 1.5s;
+}
+.project-card:hover .project-overview{
+    background-position: bottom;
+}  */
+.project-card img{
     width: 100%;
-    height:240px;
-    border-radius:5px 5px 0 0;
+    height: 200px;
+    border-radius: 6px;
+    transition:0.4s;
+    opacity: 0.8;
+    border:1px solid rgba(255,255,255,0.1);
 }
-
-.slide-card{
-    border-radius: 5px;
-    background-color: #51515c;
-    margin:13px;
+.project-card:hover img{
+    transform: scale(1.1);
+     border-radius: 6px;
 }
-.accordion-button,.accordion-body{
-     background-color: #18181a !important;
-     outline: none !important;
-     color: rgb(131, 126, 126);
-     border-radius:5px;
+.link-project{
+    visibility: hidden;
 }
-.live-site{
-    color: rgb(240, 175, 53);
+.project-card:hover .link-project{
+    visibility: visible;
 }
-.live-site:hover{
-    color: #fff;
+.text-project{
+    transition:0.4s;
+}
+.project-card:hover .text-project{
+    color: #f9004d;
 }

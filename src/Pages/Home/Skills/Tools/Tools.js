@@ -5,11 +5,21 @@ const Tools = () => {
     return (
         <Container>
             <ul className='list-container'>
-                <li className='git'>Git</li>
-                <li className='firebase'>Firebase</li>
-                <li className='heroku'>Heroku</li>
-                <li className='netlify'>Netlify</li>
-                <li className='github'>Github</li>
+                <div className='skill-road'>
+                    <li className='git'>Git</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='firebase'>Firebase</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='heroku'>Heroku</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='netlify'>Netlify</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='github'>Github</li>
+                </div>
             </ul>
         </Container>
     );

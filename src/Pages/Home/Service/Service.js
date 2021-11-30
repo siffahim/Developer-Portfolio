@@ -5,12 +5,12 @@ import './Service.css';
 const Service = () => {
     return (
         <div className='service-container text-light'>
-            <div className='text-center'>
+            <div className='text-center mb-5'>
                 <p className='txt'>FEATURES</p>
                 <h3 className='text fw-bold'>Whate I Do</h3>
             </div>
             <Container>
-                <Row>
+                <Row className='g-4'>
                     <Col sm={12} md={4}>
                         <div className='custom-card'>
                             <h1><i class="fas fa-bars txt"></i></h1>

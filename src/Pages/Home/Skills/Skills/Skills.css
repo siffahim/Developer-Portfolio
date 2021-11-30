@@ -1,6 +1,7 @@
 .skills-container{
    background: linear-gradient(145deg, #1e2024, #23272b);
-    color: #f6f6f6;
+   color: #f6f6f6;
+   padding:40px;
 }
 .nested-link{
     text-decoration: none;

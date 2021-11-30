@@ -5,10 +5,18 @@ const Others = () => {
     return (
         <Container>
             <ul className='list-container'>
-                <li className='native'>React Native</li>
-                <li className='next'>Next Js</li>
-                <li className='sass'>Sass</li>
-                <li className='styleComponent'>Style Component</li>
+                <div className='skill-road'>
+                    <li className='native'>React Native</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='next'>Next Js</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='sass'>Sass</li>
+                </div>
+                <div className='skill-road'>
+                    <li className='styleComponent'>Style Component</li>
+                </div>
             </ul>
         </Container>
     );
