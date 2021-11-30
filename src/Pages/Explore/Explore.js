@@ -4,7 +4,7 @@ import Slider from 'react-slick';
 import './Explore.css';
 
 const Explore = ({ data }) => {
-    const { img1, img2, img3, features1, features2, features3, features4, Technology } = data;
+    const { img1, img2, img3, features1, features2, features3, features4, Technology, live, code, server } = data;
     const settings = {
         dots: true,
         infinite: true,
@@ -46,9 +46,11 @@ const Explore = ({ data }) => {
                             </div>
                         </div>
                         <div className='mt-3'>
-                            <a href="#fd" className='form-btn me-2 mt-3'>Live Site</a>
-                            <a href="#fd" className='form-btn me-2 mt-3'>Server Site</a>
-                            <a href="#fd" className='form-btn me-2 mt-3'>Code Link</a>
+                            <a href={`${live}`} target='_blank' className='form-btn me-2 mt-3'>Live Site</a>
+
+                            <a href={`${server}`} target='_blank' className='form-btn me-2 mt-3'>Server Site</a>
+
+                            <a href={`${code}`} target='_blank' className='form-btn me-2 mt-3'>Code Link</a>
                         </div>
                     </div>
                 </Col>

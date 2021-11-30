@@ -11,7 +11,7 @@ const Caontact = () => {
             </div>
             <Row>
                 <Col sm={12} md={3}>
-                    <div className='contact-card'>
+                    <div className='contact-card' id="contact">
                         <h2><i class="fas fa-phone-alt icon"></i></h2>
                         <h6>01860760170</h6>
                     </div>

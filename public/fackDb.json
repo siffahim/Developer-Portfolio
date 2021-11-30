@@ -9,7 +9,10 @@
         "features1": "mplemented user interface employing React JS with vanilla CSS, react-bootstrap,Material UI, React- Rating, AOS animation.",
         "features2": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
         "features3": " Handling re-direct system with React-Router.",
-        "features4": "Manage dashboard, control admin panel by checking admin and user role."
+        "features4": "Manage dashboard, control admin panel by checking admin and user role.",
+        "live": "https://jewellery-ec2de.web.app/",
+        "server": "https://github.com/siffahim/Jewellery-Server",
+        "code": "https://github.com/siffahim/Jewellery-Shop"
     },
     {
         "id": 2,
@@ -21,7 +24,10 @@
         "features1": "Implemented user interface employing React JS with vanilla CSS, React-Bootstrap, AOS animation",
         "features2": "Integrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
         "features3": "Handling re-direct system with react-router.",
-        "features4": "Developed Rest API backend with Express and Mongo DB for servicer technology."
+        "features4": "Developed Rest API backend with Express and Mongo DB for servicer technology.",
+        "live": "https://tourism-75e22.web.app/",
+        "server": "https://github.com/siffahim/Travel-Server",
+        "code": "https://github.com/siffahim/Travel"
     },
     {
         "id": 3,
@@ -33,6 +39,9 @@
         "features1": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
         "features2": " Handling re-direct system with React-Router.",
         "features3": "Booking doctors,writing blogs",
-        "features4": "Animation website"
+        "features4": "Animation website",
+        "live": "https://healthcare-f0a15.web.app/",
+        "server": "#",
+        "code": "https://github.com/siffahim/Healthcare"
     }
 ]

@@ -45,6 +45,8 @@
     visibility: visible;
 }
 .text-project{
+    text-decoration: none;
+    color: #f6f6f6;
     transition:0.4s;
     cursor: pointer;
 }

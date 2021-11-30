@@ -11,7 +11,7 @@ const Project = ({ project }) => {
                     <img src={img1} alt="" />
                 </div>
                 <p className='txt'>{name}</p>
-                <Link to={`/detail/${id}`}><p className='text-project fs-4'>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p></Link>
+                <Link to={`/detail/${id}`} className='text-project fs-4'><p>This service provide for design <span className='link-project'><i class="fas fa-external-link-alt"></i></span></p></Link>
             </div>
         </Col>
     );
