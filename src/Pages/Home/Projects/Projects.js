@@ -15,7 +15,7 @@ const Projects = () => {
     }, [])
     return (
         <div className='slider-container'>
-            <Slide left>
+            <Slide bottom>
                 <div className='text-center mb-5'>
                     <p className='txt'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
                     <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>My Portfolio</h3>
