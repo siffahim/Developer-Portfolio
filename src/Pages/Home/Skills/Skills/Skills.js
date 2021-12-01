@@ -17,6 +17,7 @@ const Skills = () => {
                 <button onClick={() => setSkills('tools')} className='nested-link'>Tools</button>
             </div>
             <br /><br /><br />
+
             {
                 skills === 'web' && <Web />
             }

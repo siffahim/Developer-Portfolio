@@ -17,7 +17,7 @@ const Navigation = () => {
                     <Nav.Link className='custom-btn' as={Link} to="/blog">Blog</Nav.Link>
                     <Nav.Link className='custom-btn' as={HashLink} to="/home#contact">Contact</Nav.Link>
                 </Nav>
-                <a href="/SAIFUL ISLAM.pdf" download className='custom-btn' >Resume <i class="fas fa-download"></i></a>
+                <a href="/SAIFUL ISLAM.pdf" download className='custom-btn' >Resume <i className="fas fa-download"></i></a>
             </Navbar.Collapse>
         </Navbar>
     );

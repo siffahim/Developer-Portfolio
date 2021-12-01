@@ -1,5 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
+import Flip from 'react-reveal/Flip';
 import './Contact.css';
 
 const Caontact = () => {
@@ -11,18 +12,26 @@ const Caontact = () => {
             </div>
             <Row>
                 <Col sm={12} md={3}>
-                    <div className='contact-card' id="contact">
-                        <h2><i class="fas fa-phone-alt icon"></i></h2>
-                        <h6>01860760170</h6>
-                    </div>
-                    <div className='contact-card'>
-                        <h2><i class="fas fa-envelope icon"></i></h2>
-                        <h6>siffahim25@gmail.com</h6>
-                    </div>
-                    <div className='contact-card'>
-                        <h2><i class="fas fa-map-marked-alt icon"></i></h2>
-                        <h6>Mogbazer-12,Dhaka,Bangladesh</h6>
-                    </div>
+                    <Flip bottom>
+                        <div className='contact-card' id="contact">
+                            <h2><i className="fas fa-phone-alt icon"></i></h2>
+                            <h6>01860760170</h6>
+                        </div>
+                    </Flip>
+                    <Flip bottom>
+                        <div className='contact-card'>
+                            <h2><i className="fas fa-envelope icon"></i></h2>
+                            <h6>siffahim25@gmail.com</h6>
+                        </div>
+                    </Flip>
+                    <Flip bottom>
+
+                        <div className='contact-card'>
+                            <h2><i className="fas fa-map-marked-alt icon"></i></h2>
+                            <h6>Mogbazer-12,Dhaka,Bangladesh</h6>
+                        </div>
+                    </Flip>
+
                 </Col>
                 <Col sm={12} md={9}>
                     <div className='form-side'>
@@ -44,7 +53,7 @@ const Caontact = () => {
                                 </Col>
                             </Row>
                             <textarea name='message' placeholder='Message' rows="5" className='form-control custom-bg'></textarea><br />
-                            <button className='form-btn'><i class="fas fa-paper-plane icon"></i> Send</button>
+                            <button className='form-btn'><i className="fas fa-paper-plane icon"></i> Send</button>
                         </form>
                     </div>
                 </Col>

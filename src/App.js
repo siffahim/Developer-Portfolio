@@ -6,6 +6,7 @@ import Detail from './Pages/Detail/Detail';
 import Home from './Pages/Home/Home/Home';
 import Navigation from './Pages/Share/Navigation/Navigation';
 
+
 function App() {
   return (
     <Router>

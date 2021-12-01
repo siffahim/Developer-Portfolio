@@ -79,7 +79,7 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: linear-gradient(145deg, #1e2024, #23272b);
+  background: #1e2024;
   border-left: 2px solid #fff;
   animation: typing 3s steps(20) infinite;
   animation-direction: forward;
@@ -94,18 +94,18 @@
 
 @media only screen and (max-width:688px){
   .wrapper .daynamic-txt{
-  height: 40px;
-  line-height: 40px;
+  height: 45px;
+  line-height: 45px;
 }
   .daynamic-txt li{
-    font-size: 30px;
+    font-size: 28px;
   }
   .static-txt{
    display: none;
   }
   @keyframes slide {
   100%{
-    top:-160px;
+    top:-180px;
   }
 }
 .img-container img{

@@ -37,12 +37,12 @@ const Explore = ({ data }) => {
                             </div>
                             <div className='text-light'>
                                 <h6 className='txt'>Features</h6>
-                                <p><i class="fas fa-hand-point-right icon"></i> {features1}</p>
-                                <p><i class="fas fa-hand-point-right icon"></i> {features2}</p>
-                                <p><i class="fas fa-hand-point-right icon"></i> {features3}</p>
-                                <p><i class="fas fa-hand-point-right icon"></i> {features4}</p>
+                                <p><i className="fas fa-hand-point-right icon"></i> {features1}</p>
+                                <p><i className="fas fa-hand-point-right icon"></i> {features2}</p>
+                                <p><i className="fas fa-hand-point-right icon"></i> {features3}</p>
+                                <p><i className="fas fa-hand-point-right icon"></i> {features4}</p>
                                 <h6 className='txt'>Technology</h6>
-                                <p><i class="fas fa-hand-point-right icon"></i> {Technology}.</p>
+                                <p><i className="fas fa-hand-point-right icon"></i> {Technology}.</p>
                             </div>
                         </div>
                         <div className='mt-3'>
