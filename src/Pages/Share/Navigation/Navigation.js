@@ -7,7 +7,7 @@ import './Navigation.css';
 const Navigation = () => {
     return (
         <Navbar className='px-4 header' sticky="top" variant='dark' collapseOnSelect expand="lg">
-            <Navbar.Brand href="#home"><span>Ƹ̵̡Ӝ̵̨̄Ʒ𝐹𝒜𝐻𝐼𝑀</span></Navbar.Brand>
+            <Navbar.Brand href="#home"><span>𝐹𝒜𝐻𝐼𝑀</span></Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav className="mx-auto">

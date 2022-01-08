@@ -10,7 +10,7 @@ const Service = () => {
             <Slide bottom>
                 <div className='text-center mb-5'>
                     <p className='txt'>FEATURES</p>
-                    <h3 className='text fw-bold'>Whate I Do</h3>
+                    <h3 className='text fw-bold'>What I Do</h3>
                 </div>
             </Slide>
             <Container>
