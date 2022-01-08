@@ -33,64 +33,6 @@
     position: relative;
 }
 
-/*text animation*/
-.wrapper{
-  display: inline-flex;
-}
-.wrapper .static-txt{
-  font-size: 40px;
-  font-weight: bold;
-}
-.wrapper .daynamic-txt{
-  height: 50px;
-  line-height: 50px;
-  overflow: hidden;
-}
-.daynamic-txt ul{
-  list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
-.daynamic-txt li{
- list-style: none;
-  padding: 0px;
-  margin: 0px;
-  font-size:40px;
-  font-weight: bold;
-  position: relative;
-  top: 0;
-  left: -10px;
-  transition: all 0.3s;
-  animation: slide 12s steps(4) infinite;
-}
-
-@keyframes slide {
-  100%{
-    top:-200px;
-  }
-}
-.daynamic-txt li span{
-  position: relative;
-  transition: all 0.3s;
-}
-.daynamic-txt li span::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background: #1e2024;
-  border-left: 2px solid #fff;
-  animation: typing 3s steps(20) infinite;
-  animation-direction: forward;
-}
-
-@keyframes typing {
-  100%{
-    left: 100%;
-    margin: 0 -35px 0 35px;
-  }
-}
 
 @media only screen and (max-width:688px){
   .wrapper .daynamic-txt{
