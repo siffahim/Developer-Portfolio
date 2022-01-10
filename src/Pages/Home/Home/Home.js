@@ -10,6 +10,7 @@ import Skills from '../Skills/Skills/Skills';
 const Home = () => {
     return (
         <>
+            <title>Portfolio-Home</title>
             <Banner />
             <Service />
             <Projects />
