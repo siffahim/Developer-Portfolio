@@ -46,7 +46,7 @@ const About = () => {
                                     <p><span className='text-muted'>Language:</span> English (Basic Spoking)</p>
                                 </Col>
                             </Row>
-                            <a href='#f' className='form-btn mt-2'><i className="fas fa-download icon"></i> Download CV</a>
+                            <a href='SAIFUL ISLAM.pdf' download className='form-btn mt-2'><i className="fas fa-download icon"></i> Download CV</a>
                         </div>
                     </Slide>
                 </Col>
