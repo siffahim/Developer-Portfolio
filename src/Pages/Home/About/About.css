@@ -1,12 +1,11 @@
 .about-container{
     background: linear-gradient(145deg, #1e2024, #23272b);
     color: #f6f6f6;
-    padding:40px;
+    padding:30px 0;
 }
 .about{
     border-radius: 6px;
     transition: 0.4s;
-    padding: 10px;
     text-transform: uppercase;
 }
 .about-img img{

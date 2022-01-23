@@ -14,8 +14,8 @@ const Banner = () => {
                     <Col sm={12} md={7} className='pt-4 order-2 order-md-1 '>
                         <Zoom>
                             <p className='text-muted'>WELCOME TO MY WORLD</p>
-                            <h1 style={{ fontSize: '45px', fontWeight: 'bold' }}>Hi,<br /> I’M <sapn style={{ color: '#f9004d' }}>𝐒𝐀𝐈𝐅𝐔𝐋 𝐈𝐒𝐋𝐀𝐌</sapn><br />
-                                A <span style={{ color: '#f9004d', fontSize: '40px' }}>
+                            <h1 style={{ fontSize: '45px', fontWeight: 'bold', textTransform: 'uppercase' }}>Hi,<br /> I’M <sapn style={{ color: '#f9004d' }}>𝐒𝐀𝐈𝐅𝐔𝐋 𝐈𝐒𝐋𝐀𝐌</sapn><br />
+                                A <span style={{ color: '#f9004d', fontSize: '40px', fontWeight: '400' }}>
                                     <Typewriter
                                         loop
                                         cursor
