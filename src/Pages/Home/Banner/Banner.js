@@ -49,7 +49,7 @@ const Banner = () => {
                                     <a rel="noreferrer" href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
                                         <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
                                     </a>
-                                    <button onClick={handleMedia} className='btn-media ms-4'><i class="fas fa-play-circle"></i></button>
+                                    <button onClick={handleMedia} className='btn-media ms-4'><i className="fas fa-play-circle"></i></button>
                                 </div>
                             </div>
                         </Slide>

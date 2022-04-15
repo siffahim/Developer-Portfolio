@@ -5,6 +5,7 @@ import Blogs from './Pages/Blogs/Blogs';
 import Detail from './Pages/Detail/Detail';
 import Home from './Pages/Home/Home/Home';
 import Media from './Pages/Media/Media';
+import NotFound from './Pages/NotFound/NotFound';
 import Navigation from './Pages/Share/Navigation/Navigation';
 
 
@@ -18,6 +19,7 @@ function App() {
         <Route path={`/detail/:detailId`} element={<Detail />} />
         <Route path='/blog' element={<Blogs />} />
         <Route path='/media' element={<Media />} />
+        <Route path='/*' element={<NotFound />} />
       </Routes>
     </Router>
   );
