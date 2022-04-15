@@ -9,7 +9,7 @@ const Project = ({ project }) => {
         navigate(`/detail/${id}`);
     }
     return (
-        <Col>
+        <Col xs={12} md={6}>
             <button className='card-btn' onClick={() => handleDetail(id)}>
                 <div className='project-card'>
                     <div className='overflow-hidden'>
