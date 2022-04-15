@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Flip from 'react-reveal/Flip';
+import { Fade } from 'react-reveal';
 
 const Tools = () => {
     return (
         <Container>
-            <Flip top>
+            <Fade>
                 <ul className='list-container'>
                     <div className='skill-road'>
                         <li className='git'>Git</li>
@@ -23,7 +23,7 @@ const Tools = () => {
                         <li className='github'>Github</li>
                     </div>
                 </ul>
-            </Flip>
+            </Fade>
         </Container>
     );
 };

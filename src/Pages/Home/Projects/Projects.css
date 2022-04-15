@@ -1,46 +1,55 @@
-.slider-container{
+.slider-container {
     width: 100%;
     background: linear-gradient(145deg, #1e2024, #23272b);
     color: #f6f6f6;
-    padding:40px 40px;
+    padding: 40px 40px;
 }
-.project-card{
-    height: 200px;
-    background:linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+
+.project-card {
+    width: 100% !important;
+    height: 260px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+    padding: 5px;
     position: relative;
     transition: 0.4s;
     overflow: hidden;
     border-radius: 8px;
 }
-.project-card img{
+
+.project-card img {
     width: 100%;
-    height:200px;
+    height: 260px;
     border-radius: 8px;
     background-position: center;
-    transition:0.4s;
+    transition: 0.4s;
 }
-.project-card:hover img{
+
+.project-card:hover img {
     transform: scale(1.1);
-    border-radius: 8px;
+    border-radius: 8px !important;
 }
-.card-btn{
+
+.card-btn {
     border: none;
     background: transparent;
 }
-.project-card-text{
+
+.project-card-text {
     position: absolute;
     width: 100%;
-    bottom:-50px;
-    transition:0.4s;
+    bottom: -50px;
+    transition: 0.4s;
 }
-.project-card:hover .project-card-text{
+
+.project-card:hover .project-card-text {
     bottom: -16px;
 }
-.project-name{
-    width: 100%;
+
+.project-name {
+    width: 98.2%;
     text-align: center;
-    background-color:#f9004fc4;
+    background-color: #f9004fc4;
     color: white;
     padding: 5px;
 }

@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Flip from 'react-reveal/Flip';
+import { Fade } from 'react-reveal';
 
 const Others = () => {
     return (
         <Container>
-            <Flip top>
+            <Fade>
                 <ul className='list-container'>
                     <div className='skill-road'>
                         <li className='native'>React Native</li>
@@ -20,7 +20,7 @@ const Others = () => {
                         <li className='styleComponent'>Style Component</li>
                     </div>
                 </ul>
-            </Flip>
+            </Fade>
         </Container>
     );
 };

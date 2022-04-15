@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
             </Slide>
             <Container>
-                <Row>
+                <Row sm={1} md={2} className='g-2'>
                     {
                         projects.map(project => <Project
                             key={project.id}

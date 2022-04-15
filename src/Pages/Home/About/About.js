@@ -10,7 +10,7 @@ const About = () => {
         <div className='about-container' id='about'>
             <Slide left>
                 <div className='text-center mb-5'>
-                    <p className='txt'>Information</p>
+                    <p className='txt text-uppercase'>Information</p>
                     <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>About Me</h3>
                 </div>
             </Slide>

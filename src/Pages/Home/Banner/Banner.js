@@ -2,11 +2,16 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
+import { useNavigate } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import img from '../../../images/fahim.png';
 import './Banner.css';
 
 const Banner = () => {
+    const navigate = useNavigate();
+    const handleMedia = () => {
+        navigate('/media')
+    }
     return (
         <div className='banner-container'>
             <Container>
@@ -29,19 +34,23 @@ const Banner = () => {
                             </h1>
 
                             <p className='mb-5 text-muted'>A highly skilled developer with strong confidence with high quality and high-performance web applications seeks the rules of junior Software Developer at JavaScript, React, Node, andmodern JavaScript libraries.</p>
+
                         </Zoom>
                         <Slide bottom>
                             <div>
                                 <p>FIND WITH ME</p>
-                                <a href="https://www.facebook.com/sif.fahim" target='_blank' className='text-light'>
-                                    <div className='banner-icon'><i className="fab fa-facebook-f"></i></div>
-                                </a>
-                                <a href="https://www.instagram.com/siffahim/" target='_blank' className='text-light'>
-                                    <div className='banner-icon'><i className="fab fa-instagram"></i></div>
-                                </a>
-                                <a href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
-                                    <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
-                                </a>
+                                <div className='d-flex align-item-center'>
+                                    <a rel='noreferrer' href="https://www.facebook.com/sif.fahim" target='_blank' className='text-light'>
+                                        <div className='banner-icon'><i className="fab fa-facebook-f"></i></div>
+                                    </a>
+                                    <a rel="noreferrer" href="https://www.instagram.com/siffahim/" target='_blank' className='text-light'>
+                                        <div className='banner-icon'><i className="fab fa-instagram"></i></div>
+                                    </a>
+                                    <a rel="noreferrer" href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
+                                        <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
+                                    </a>
+                                    <button onClick={handleMedia} className='btn-media ms-4'><i class="fas fa-play-circle"></i></button>
+                                </div>
                             </div>
                         </Slide>
                     </Col>

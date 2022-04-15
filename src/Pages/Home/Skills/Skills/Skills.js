@@ -9,12 +9,15 @@ const Skills = () => {
     const [skills, setSkills] = useState('web');
     return (
         <div className='text-center skills-container'>
-            <h4 className='py-4 text-light text'>My SKills</h4>
+            <div className='text-center mb-5'>
+                <p className='txt text-uppercase'>What skill i have</p>
+                <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>My Experience</h3>
+            </div>
             <div className='d-flex flex-wrap justify-content-center'>
-                <button onClick={() => setSkills('web')} className='nested-link'>Web</button>
-                <button onClick={() => setSkills('programming')} className='nested-link'>Programming</ button>
-                <button onClick={() => setSkills('others')} className='nested-link'>Others</button>
-                <button onClick={() => setSkills('tools')} className='nested-link'>Tools</button>
+                <button onClick={() => setSkills('web')} className={skills === 'web' ? 'selected' : 'nested-link'}>Web</button>
+                <button onClick={() => setSkills('programming')} className={skills === 'programming' ? 'selected' : 'nested-link'}>Programming</ button>
+                <button onClick={() => setSkills('others')} className={skills === 'others' ? 'selected' : 'nested-link'}>Others</button>
+                <button onClick={() => setSkills('tools')} className={skills === 'tools' ? 'selected' : 'nested-link'}>Tools</button>
             </div>
             <br /><br /><br />
 

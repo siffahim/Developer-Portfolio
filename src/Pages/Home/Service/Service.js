@@ -14,34 +14,31 @@ const Service = () => {
                 </div>
             </Slide>
             <Container>
-                <Row className='g-4'>
+                <Row className='g-4 text-center'>
                     <Col sm={12} md={4}>
                         <Flip left>
                             <div className='custom-card'>
-                                <h1><i className="fas fa-bars txt"></i></h1>
-                                <h3>Web Design</h3>
-                                <h6>I'm developer focused on crafting user‑friendly experiences.</h6>
-                                <h5 className='service-sign'><i className="fas fa-arrow-right txt"></i></h5>
+                                <h2 className='servie-icon'><i className="fa-solid fa-palette"></i></h2>
+                                <h4>Web Design</h4>
+                                <p>I'm developer focused on crafting user‑friendly experiences.</p>
                             </div>
                         </Flip>
                     </Col>
                     <Col sm={12} md={4}>
                         <Flip right>
                             <div className='custom-card'>
-                                <h1><i className="fas fa-book-open txt"></i></h1>
-                                <h3>Responsive</h3>
-                                <h6>I'm developer focused on crafting user‑friendly experiences.</h6>
-                                <h5 className='service-sign'><i className="fas fa-arrow-right txt"></i></h5>
+                                <h2 className='servie-icon'><i className="fa-solid fa-tablet-button"></i></h2>
+                                <h4>Responsive</h4>
+                                <p>I'm developer focused on crafting user‑friendly experiences.</p>
                             </div>
                         </Flip>
                     </Col>
                     <Col sm={12} md={4}>
                         <Flip left>
                             <div className='custom-card'>
-                                <h1><i className="fas fa-laptop-code txt"></i></h1>
-                                <h3>Web Development</h3>
-                                <h6>I'm developer focused on crafting user‑friendly experiences.</h6>
-                                <p className='service-sign'><i className="fas fa-arrow-right txt"></i></p>
+                                <h2 className='servie-icon'><i className="fas fa-laptop-code"></i></h2>
+                                <h4>Web Development</h4>
+                                <p>I'm developer focused on crafting user‑friendly experiences.</p>
                             </div>
                         </Flip>
                     </Col>

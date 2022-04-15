@@ -1,25 +1,31 @@
-.skills-container{
-   background: linear-gradient(145deg, #1e2024, #23272b);
-   color: #f6f6f6;
-   padding:40px;
+.skills-container {
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    color: #f6f6f6;
+    padding: 40px;
 }
-.nested-link{
-    background:transparent;
+
+.nested-link {
+    background: transparent;
     text-decoration: none;
     border: 1px solid gray;
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 50px;
     color: #fff;
-    transition:all 0.3s;
 }
-.nested-link:hover{
+
+.selected {
     background-color: rgba(224, 219, 210, 0.267);
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 50px;
     color: #fff;
 }
 
 @media only screen and (max-width:688px) {
-    .nested-link{
+    .nested-link {
         margin: 5px;
     }
 }

@@ -1,55 +1,83 @@
-.banner-container{
-    width: 100%;
-    padding: 2%;
-    padding-bottom: 5%;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    color: #f6f6f6;
+.banner-container {
+  width: 100%;
+  padding: 2%;
+  padding-bottom: 5%;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  color: #f6f6f6;
 }
-.img-container img{
+
+.img-container img {
   width: 80%;
   height: 80%;
   padding-top: 30px;
   opacity: 0.9;
   border-radius: 50%;
   margin-left: 30px;
-  animation: jump 2s  infinite;
+  animation: jump 2s infinite;
 }
 
-.banner-icon{
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    margin-right: 20px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 20px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    transition: 0.4s;
-    background:linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow:10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    position: relative;
+.banner-icon {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 20px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  transition: 0.4s;
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
+  position: relative;
+}
+
+.btn-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 30px;
+  color: #f9004d;
+  border: none;
+  background: transparent;
+  outline: none;
+  margin-top: 10px;
+  animation: media 1s infinite !important;
+}
+
+@keyframes media {
+  to {
+    box-shadow: 0 0 3px 5px #f9004f3b;
+    transform: scale(1.1);
+  }
 }
 
 
-@media only screen and (max-width:688px){
-  .wrapper .daynamic-txt{
-  height: 45px;
-  line-height: 45px;
-}
-  .daynamic-txt li{
+@media only screen and (max-width:688px) {
+  .wrapper .daynamic-txt {
+    height: 45px;
+    line-height: 45px;
+  }
+
+  .daynamic-txt li {
     font-size: 28px;
   }
-  .static-txt{
-   display: none;
+
+  .static-txt {
+    display: none;
   }
+
   @keyframes slide {
-  100%{
-    top:-180px;
+    100% {
+      top: -180px;
+    }
   }
-}
-.img-container img{
-  margin-left:0px;
-}
+
+  .img-container img {
+    margin-left: 0px;
+  }
 }

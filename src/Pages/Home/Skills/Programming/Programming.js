@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Flip from 'react-reveal/Flip';
+import { Fade } from 'react-reveal';
 
 const Programming = () => {
     return (
         <Container>
-            <Flip top>
+            <Fade>
                 <ul className='list-container'>
                     <div className='skill-road'>
                         <li className='javascript'>JavaScript</li>
@@ -17,7 +17,7 @@ const Programming = () => {
                         <li className='python'>Python</li>
                     </div>
                 </ul>
-            </Flip>
+            </Fade>
         </Container>
     );
 };

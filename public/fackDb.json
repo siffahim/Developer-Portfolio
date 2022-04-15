@@ -30,21 +30,6 @@
         "code": "https://github.com/siffahim/Travel"
     },
     {
-        "id": 3,
-        "name": "Healthcare",
-        "img1": "https://i.ibb.co/NW07xKM/food-1.png",
-        "img2": "https://i.ibb.co/tqGb6qP/food-2.png",
-        "img3": "https://i.ibb.co/7V0gkdQ/food-3.png",
-        "Technology": "React Js,React Router,Firebase,React- Bootstrap,Vanilla Css,Media Query Of Vanilla Css",
-        "features1": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
-        "features2": " Handling re-direct system with React-Router.",
-        "features3": "Booking doctors,writing blogs",
-        "features4": "Animation website",
-        "live": "https://healthcare-f0a15.web.app/",
-        "server": "#",
-        "code": "https://github.com/siffahim/Healthcare"
-    },
-    {
         "id": 1,
         "name": "Jewellery",
         "img1": "https://i.ibb.co/LgxRjbt/jewellery-1.png",
@@ -73,20 +58,5 @@
         "live": "https://tourism-75e22.web.app/",
         "server": "https://github.com/siffahim/Travel-Server",
         "code": "https://github.com/siffahim/Travel"
-    },
-    {
-        "id": 3,
-        "name": "Healthcare",
-        "img1": "https://i.ibb.co/NW07xKM/food-1.png",
-        "img2": "https://i.ibb.co/tqGb6qP/food-2.png",
-        "img3": "https://i.ibb.co/7V0gkdQ/food-3.png",
-        "Technology": "React Js,React Router,Firebase,React- Bootstrap,Vanilla Css,Media Query Of Vanilla Css",
-        "features1": "ntegrated simple google login and sign-up method, register new account, email & password login with firebase authentication.",
-        "features2": " Handling re-direct system with React-Router.",
-        "features3": "Booking doctors,writing blogs",
-        "features4": "Animation website",
-        "live": "https://healthcare-f0a15.web.app/",
-        "server": "#",
-        "code": "https://github.com/siffahim/Healthcare"
     }
 ]

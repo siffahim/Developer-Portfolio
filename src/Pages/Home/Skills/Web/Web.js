@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-import Flip from 'react-reveal/Flip';
+import { Fade } from 'react-reveal';
 import './Web.css';
 
 const web = () => {
     return (
         <Container>
-            <Flip top>
+            <Fade>
                 <ul className='list-container'>
                     <div className='skill-road'>
                         <li className='react'>React Js</li>
@@ -30,7 +30,7 @@ const web = () => {
                         <li className='bootstrap'>Bootstrap</li>
                     </div>
                 </ul>
-            </Flip>
+            </Fade>
         </Container>
     );
 };
