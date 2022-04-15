@@ -24,7 +24,7 @@ const About = () => {
                         </Col>
                         <Col sm={12} md={7}>
                             <div className='about'>
-                                <h3 className='icon fw-bold'>About Me</h3>
+                                <h3 className='icon fw-bold'>Who I am!!!</h3>
                                 <h5>I M</h5>
                                 <h5>SAIFUL ISLAM FAHIM</h5>
                                 <p className='icon'>

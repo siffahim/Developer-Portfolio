@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap';
 import Slide from 'react-reveal/Slide';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
-import Project from '../../Project/Project';
+import Project from '../Project/Project';
 import './Projects.css';
 
 const Projects = () => {
@@ -22,7 +22,7 @@ const Projects = () => {
                 </div>
             </Slide>
             <Container>
-                <Row className='g-4'>
+                <Row>
                     {
                         projects.map(project => <Project
                             key={project.id}
