@@ -2,16 +2,11 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Slide from 'react-reveal/Slide';
 import Zoom from 'react-reveal/Zoom';
-import { useNavigate } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 import img from '../../../images/fahim.png';
 import './Banner.css';
 
 const Banner = () => {
-    const navigate = useNavigate();
-    const handleMedia = () => {
-        navigate('/media')
-    }
     return (
         <div className='banner-container'>
             <Container>
@@ -49,7 +44,6 @@ const Banner = () => {
                                     <a rel="noreferrer" href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
                                         <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
                                     </a>
-                                    <button onClick={handleMedia} className='btn-media ms-4'><i className="fas fa-play-circle"></i></button>
                                 </div>
                             </div>
                         </Slide>

@@ -1,20 +1,48 @@
-.header{
-    background-color:rgba(255,255,255,0.1);
+.header {
+    background-color: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(40px);
     text-align: center;
 }
-.custom-btn{
+
+.custom-btn {
     text-decoration: none;
     border-radius: 6px;
     padding: 12px 15px !important;
     font-weight: 500;
-    font-size:15px;
+    font-size: 15px;
     color: #fff;
-    border: 1px solid rgba(255,255,255,0.2);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     transition: 0.4s;
     margin-right: 5px;
+    margin-bottom: 5px;
+    display: block;
 }
-.custom-btn:hover{
-    background-color:rgba(224, 219, 210, 0.267);
+
+.custom-btn:hover {
+    background-color: rgba(224, 219, 210, 0.267);
     color: #fff;
+}
+
+/*media btn design*/
+.btn-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: #f9004d;
+    border: none;
+    background: transparent;
+    outline: none;
+    text-align: center;
+    animation: media 1s infinite !important;
+}
+
+@keyframes media {
+    to {
+        box-shadow: 0 0 3px 5px #f9004f3b;
+        transform: scale(1.1);
+    }
 }
