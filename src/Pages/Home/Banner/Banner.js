@@ -34,17 +34,15 @@ const Banner = () => {
                         <Slide bottom>
                             <div>
                                 <p>FIND WITH ME</p>
-                                <div className='d-flex align-item-center'>
-                                    <a rel='noreferrer' href="https://www.facebook.com/sif.fahim" target='_blank' className='text-light'>
-                                        <div className='banner-icon'><i className="fab fa-facebook-f"></i></div>
-                                    </a>
-                                    <a rel="noreferrer" href="https://www.instagram.com/siffahim/" target='_blank' className='text-light'>
-                                        <div className='banner-icon'><i className="fab fa-instagram"></i></div>
-                                    </a>
-                                    <a rel="noreferrer" href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
-                                        <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
-                                    </a>
-                                </div>
+                                <a rel='noreferrer' href="https://www.facebook.com/sif.fahim" target='_blank' className='text-light'>
+                                    <div className='banner-icon'><i className="fab fa-facebook-f"></i></div>
+                                </a>
+                                <a rel="noreferrer" href="https://www.instagram.com/siffahim/" target='_blank' className='text-light'>
+                                    <div className='banner-icon'><i className="fab fa-instagram"></i></div>
+                                </a>
+                                <a rel="noreferrer" href="https://www.linkedin.com/in/siffahim/" target='_blank' className='text-light'>
+                                    <div className='banner-icon'><i className="fab fa-linkedin-in"></i></div>
+                                </a>
                             </div>
                         </Slide>
                     </Col>

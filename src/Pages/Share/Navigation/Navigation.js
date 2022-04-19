@@ -20,14 +20,14 @@ const Navigation = () => {
             <Navbar.Collapse>
                 <Nav className="mx-auto">
                     <Nav.Link className='custom-btn' as={Link} to="/home">Home</Nav.Link>
-                    <Nav.Link className='custom-btn' as={HashLink} to="/home#about">About</Nav.Link>
-                    <Nav.Link className='custom-btn' target="_blank" href="https://drive.google.com/file/d/1iSGw_Qrg-ov_gJMt1EwhKg54noPyDySi/view?usp=sharing">Resume</Nav.Link>
+                    <Nav.Link className='custom-btn' as={HashLink} to="/home#about">About Me</Nav.Link>
+                    <Nav.Link className='custom-btn' href="/SAIFUL ISLAM.pdf" download >Resume</Nav.Link>
                     <Nav.Link className='custom-btn' as={Link} to="/blog">Blog</Nav.Link>
-                    <Nav.Link className='custom-btn' as={HashLink} to="/home#contact">Contact</Nav.Link>
+                    <Nav.Link className='custom-btn' as={HashLink} to="/home#contact">Contact Me</Nav.Link>
                 </Nav>
-                <a href="/SAIFUL ISLAM.pdf" download className='custom-btn me-0' >Resume <i className="fas fa-download"></i></a>
+
                 {
-                    location.pathname === '/media' ? '' : <button onClick={handleMedia} className='btn-media ms-4'><i className="fas fa-play-circle"></i></button>
+                    location.pathname === '/media' ? <a href="/SAIFUL ISLAM.pdf" download className='custom-btn me-0' >Resume <i class="fa-solid fa-download"></i></a> : <button onClick={handleMedia} className='btn-media ms-4'><i className="fas fa-play-circle"></i></button>
                 }
             </Navbar.Collapse>
         </Navbar>
