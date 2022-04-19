@@ -37,7 +37,6 @@
 }
 
 .custom-card:hover .servie-icon {
-    box-shadow: 0 0 0 400px #2f3640;
-    background-color: #2f3640;
+    box-shadow: 0 0 0 400px #f9004f9d;
     color: #f6f6f6 !important;
 }
