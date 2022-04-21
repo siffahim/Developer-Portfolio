@@ -1,5 +1,4 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AnimatedCursor from "react-animated-cursor";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Blogs from './Pages/Blogs/Blogs';
@@ -23,12 +22,6 @@ function App() {
           <Route path='/*' element={<NotFound />} />
         </Routes>
       </Router>
-      {/* cursor style */}
-      <AnimatedCursor
-        innerSize={10}
-        outerSize={8}
-        color='249, 0, 77'
-      />
 
     </>
   );
