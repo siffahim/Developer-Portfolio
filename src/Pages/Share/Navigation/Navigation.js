@@ -21,7 +21,8 @@ const Navigation = () => {
                 <Nav className="mx-auto">
                     <Nav.Link className='custom-btn' as={Link} to="/home">Home</Nav.Link>
                     <Nav.Link className='custom-btn' as={HashLink} to="/home#about">About Me</Nav.Link>
-                    <Nav.Link className='custom-btn' href="/SAIFUL ISLAM.pdf" download >Resume</Nav.Link>
+                    <Nav.Link target='_blank' className='custom-btn' href="
+                    https://drive.google.com/file/d/1kwPxJjtMLlDNm7SzgEWHbUPzVJjMzsVn/view?usp=sharing"  >Resume</Nav.Link>
                     <Nav.Link className='custom-btn' as={Link} to="/blog">Blog</Nav.Link>
                     <Nav.Link className='custom-btn' as={HashLink} to="/home#contact">Contact Me</Nav.Link>
                 </Nav>
