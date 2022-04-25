@@ -2,32 +2,26 @@
     width: 100%;
     background: linear-gradient(145deg, #1e2024, #23272b);
     color: #f6f6f6;
-    padding: 40px 40px;
+    padding: 100px 40px;
 }
 
 .project-card {
     width: 100% !important;
-    height: 260px;
-    background: linear-gradient(145deg, #1e2024, #23272b);
-    box-shadow: 10px 10px 19px #1c1e22, -10px -10px 19px #262a2e;
-    padding: 5px;
+    height: 450px;
+    padding: 10px;
+    background: linear-gradient(145deg, #50535a, #383c41);
     position: relative;
-    transition: 0.4s;
     overflow: hidden;
     border-radius: 8px;
+    z-index: 99999;
 }
 
 .project-card img {
     width: 100%;
-    height: 260px;
+    height: 246px;
     border-radius: 8px;
     background-position: center;
     transition: 0.4s;
-}
-
-.project-card:hover img {
-    transform: scale(1.1);
-    border-radius: 8px !important;
 }
 
 .card-btn {
@@ -35,21 +29,19 @@
     background: transparent;
 }
 
-.project-card-text {
-    position: absolute;
-    width: 100%;
-    bottom: -50px;
-    transition: 0.4s;
+.title-card {
+    background-color: #f6f6f6;
+    box-shadow: 0, 0, 5px rgb(0, 0, 0, 0.3);
+    margin: 5px;
+    display: inline-block;
+    padding: 3px 15px;
+    border-radius: 15px;
 }
 
-.project-card:hover .project-card-text {
-    bottom: -16px;
-}
+/*
+    swiper customize
+*/
 
-.project-name {
-    width: 98.2%;
-    text-align: center;
-    background-color: #f9004fc4;
-    color: white;
-    padding: 5px;
+.swiper-pagination-bullet {
+    background-color: #f9004d !important;
 }
