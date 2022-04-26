@@ -9,11 +9,11 @@ const Skills = () => {
     const [skills, setSkills] = useState('web');
     return (
         <div className='text-center skills-container'>
-            <div className='text-center mb-5'>
+            <div data-aos="fade-up" className='text-center mb-5'>
                 <p className='txt text-uppercase'>What skill i have</p>
                 <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>My Experience</h3>
             </div>
-            <div className='d-flex flex-wrap justify-content-center'>
+            <div data-aos="zoom-in-up" className='d-flex flex-wrap justify-content-center'>
                 <button onClick={() => setSkills('web')} className={skills === 'web' ? 'selected' : 'nested-link'}>Web</button>
                 <button onClick={() => setSkills('programming')} className={skills === 'programming' ? 'selected' : 'nested-link'}>Programming</ button>
                 <button onClick={() => setSkills('others')} className={skills === 'others' ? 'selected' : 'nested-link'}>Others</button>

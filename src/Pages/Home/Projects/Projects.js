@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Col, Row } from 'react-bootstrap';
-import Slide from 'react-reveal/Slide';
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import { A11y, Autoplay, EffectCoverflow, Navigation, Pagination, Scrollbar } from 'swiper';
@@ -21,13 +20,11 @@ const Projects = () => {
     }, [])
     return (
         <div className='slider-container'>
-            <Slide bottom>
-                <div className='text-center mb-5'>
-                    <p className='txt'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
-                    <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>My Portfolio</h3>
-                </div>
-            </Slide>
-            <Row className='g-2'>
+            <div data-aos="fade-up" className='text-center mb-5'>
+                <p className='txt'>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</p>
+                <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>My Portfolio</h3>
+            </div>
+            <Row data-aos="zoom-in" className='g-2'>
                 <Col xs={12} md={12}>
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
