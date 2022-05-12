@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { Typewriter } from 'react-simple-typewriter';
-import img from '../../../images/2.png';
+import img from '../../../images/fahim.png';
 import './Banner.css';
 
 const Banner = () => {

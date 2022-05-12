@@ -60,8 +60,11 @@ const Projects = () => {
                                             <span style={{ background: '#4ee56f', color: '#fff' }} className='title-card'>MongoDb</span>
                                             <span style={{ background: '#ff205d', color: '#fff' }} className='title-card'>Firebase</span>
                                         </div>
-                                        <h5 className='text-light'>{product.name}</h5>
-                                        <p className='text-light text-justify'>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        <p className='text-light fs-6'>{product.name}</p>
+                                        <p className='text-light'>Lorem ipsum, dolor sit amet consectetur yess.</p>
+                                        <button className='viewBtn'><i class="fa-solid fa-eye"></i> Live</button>
+                                        <button className='viewBtn'><i class="fa-solid fa-code"></i> Code</button>
+                                        <button className='viewBtn'><i class="fa-solid fa-arrow-trend-up"></i> Server</button>
                                     </div>
                                 </button>
                             </SwiperSlide>)
