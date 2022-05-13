@@ -28,7 +28,7 @@ const Projects = () => {
                 <Col xs={12} md={12}>
                     <Swiper
                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay, EffectCoverflow]}
-                        autoplay={{ delay: 3000 }}
+                        autoplay={{ delay: 4000 }}
                         effect={"coverflow"}
                         slidesPerView={1}
                         breakpoints={{
@@ -47,26 +47,26 @@ const Projects = () => {
                         pagination={{ clickable: true }}
                     >
                         {
-                            projects.map(product => <SwiperSlide>
-                                <button className='card-btn'>
-                                    <div className='project-card text-start'>
-                                        <div className='overflow-hidden'>
-                                            <img src={product.img1} alt="" />
-                                        </div>
-                                        <div className='text-start'>
-                                            <span style={{ background: '#6e7ff7', color: '#fff' }} className='title-card'>React</span>
-                                            <span style={{ background: '#4ee56f', color: '#fff' }} className='title-card'>Node</span>
-                                            <span style={{ background: '#ffac2c ', color: '#fff' }} className='title-card'>Firebase</span>
-                                            <span style={{ background: '#4ee56f', color: '#fff' }} className='title-card'>MongoDb</span>
-                                            <span style={{ background: '#ff205d', color: '#fff' }} className='title-card'>Firebase</span>
-                                        </div>
-                                        <p className='text-light fs-6'>{product.name}</p>
-                                        <p className='text-light'>Lorem ipsum, dolor sit amet consectetur yess.</p>
-                                        <button className='viewBtn'><i class="fa-solid fa-eye"></i> Live</button>
-                                        <button className='viewBtn'><i class="fa-solid fa-code"></i> Code</button>
-                                        <button className='viewBtn'><i class="fa-solid fa-arrow-trend-up"></i> Server</button>
+                            projects.map(project => <SwiperSlide>
+                                <div className='project-card text-start'>
+                                    <div className='overflow-hidden'>
+                                        <img src={project.img} alt="" />
                                     </div>
-                                </button>
+                                    <div className='text-start'>
+                                        <span style={{ background: '#6e7ff7', color: '#fff' }} className='title-card'>React</span>
+                                        <span style={{ background: '#4ee56f', color: '#fff' }} className='title-card'>Node</span>
+                                        <span style={{ background: '#ffac2c ', color: '#fff' }} className='title-card'>Firebase</span>
+                                        <span style={{ background: '#4ee56f', color: '#fff' }} className='title-card'>MongoDb</span>
+                                        <span style={{ background: '#ff205d', color: '#fff' }} className='title-card'>Firebase</span>
+                                    </div>
+                                    <div className='my-3 lh-1'>
+                                        <p className='text-light fs-6'>{project.name}</p>
+                                        <p className='text-light'>Lorem ipsum, dolor sit amet consectetur yess.</p>
+                                    </div>
+                                    <a rel='noreferrer' href={`${project.live}`} target="_blank" className='viewBtn'><i class="fa-solid fa-eye"></i> Live</a>
+                                    <a rel='noreferrer' href={`${project.code}`} target="_blank" className='viewBtn'><i class="fa-solid fa-code"></i> Code</a>
+                                    <a rel='noreferrer' href={`${project.server}`} target="_blank" className='viewBtn'><i class="fa-solid fa-arrow-trend-up"></i> Server</a>
+                                </div>
                             </SwiperSlide>)
                         }
                     </Swiper>

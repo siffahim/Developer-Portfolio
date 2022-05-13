@@ -41,8 +41,29 @@
 
 .viewBtn {
     border: none;
-    border-radius: 15px 16px;
+    background-color: #c3c3c3;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    padding: 2px 7px;
+    border-radius: 15px 15px 15px 15px;
     margin-right: 5px;
+}
+
+.viewBtn:hover {
+    color: #1e2024;
+}
+
+.viewBtn:hover .fa-eye {
+    color: #f9004d;
+}
+
+.viewBtn:hover .fa-code {
+    color: #f9004d;
+}
+
+.viewBtn:hover .fa-arrow-trend-up {
+    color: #f9004d;
 }
 
 /*

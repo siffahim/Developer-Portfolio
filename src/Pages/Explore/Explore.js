@@ -46,11 +46,11 @@ const Explore = ({ data }) => {
                             </div>
                         </div>
                         <div className='mt-3'>
-                            <a href={`${live}`} target='_blank' className='form-btn me-2 mt-3'>Live Site</a>
+                            <a rel='noreferrer' href={`${live}`} target='_blank' className='form-btn me-2 mt-3'>Live Site</a>
 
-                            <a href={`${server}`} target='_blank' className='form-btn me-2 mt-3'>Server Site</a>
+                            <a rel='noreferrer' href={`${server}`} target='_blank' className='form-btn me-2 mt-3'>Server Site</a>
 
-                            <a href={`${code}`} target='_blank' className='form-btn me-2 mt-3'>Code Link</a>
+                            <a rel='noreferrer' href={`${code}`} target='_blank' className='form-btn me-2 mt-3'>Code Link</a>
                         </div>
                     </div>
                 </Col>
