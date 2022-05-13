@@ -9,7 +9,7 @@ const Banner = () => {
         <div className='banner-container'>
             <Container>
                 <Row className='text-center text-md-start'>
-                    <Col data-aos="fade-up" sm={12} md={7} className='pt-4 order-2 order-md-1 '>
+                    <Col data-aos="fade-up" xs={12} md={7} className='pt-4 order-2 order-md-1 '>
                         <p className='text-muted'>WELCOME TO MY WORLD</p>
                         <h1 style={{ fontSize: '45px', fontWeight: 'bold', textTransform: 'uppercase' }}>Hi,<br /> I’M <sapn style={{ color: '#f9004d' }}>𝐒𝐀𝐈𝐅𝐔𝐋 𝐈𝐒𝐋𝐀𝐌</sapn><br />
                             A <span style={{ color: '#f9004d', fontSize: '40px', fontWeight: '400' }}>
@@ -39,7 +39,7 @@ const Banner = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col data-aos="fade-down" sm={12} md={5} className=' order-1 order-md-2'>
+                    <Col data-aos="fade-down" xs={12} md={5} className=' order-1 order-md-2'>
                         <div className='img-container'>
                             <img src={img} width='80%' alt="" />
                         </div>

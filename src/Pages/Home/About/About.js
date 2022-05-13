@@ -7,21 +7,19 @@ import './About.css';
 const About = () => {
     return (
         <div className='about-container' id='about'>
-
             <div data-aos="fade-up" className='text-center mb-5'>
                 <p className='txt text-uppercase'>Information</p>
                 <h3 className="text fw-bold" style={{ color: "#f6f6f6" }}>About Me</h3>
             </div>
-
             <div className='about_bg'>
                 <Container>
                     <Row className='px-1 d-flex align-items-center'>
-                        <Col data-aos="zoom-in-right" sm={12} md={5}>
+                        <Col data-aos="zoom-in-right" xs={12} md={5}>
                             <div className=''>
                                 <img src={img} width='70%' alt="" />
                             </div>
                         </Col>
-                        <Col data-aos="zoom-in-left" sm={12} md={7}>
+                        <Col data-aos="zoom-in-left" xs={12} md={7}>
                             <div className='about'>
                                 <h3 className='icon fw-bold'>Who I am!!!</h3>
                                 <h5>I M</h5>

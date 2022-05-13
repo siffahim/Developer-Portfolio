@@ -63,9 +63,15 @@ const Projects = () => {
                                         <p className='text-light fs-6'>{project.name}</p>
                                         <p className='text-light'>Lorem ipsum, dolor sit amet consectetur yess.</p>
                                     </div>
-                                    <a rel='noreferrer' href={`${project.live}`} target="_blank" className='viewBtn'><i class="fa-solid fa-eye"></i> Live</a>
-                                    <a rel='noreferrer' href={`${project.code}`} target="_blank" className='viewBtn'><i class="fa-solid fa-code"></i> Code</a>
-                                    <a rel='noreferrer' href={`${project.server}`} target="_blank" className='viewBtn'><i class="fa-solid fa-arrow-trend-up"></i> Server</a>
+                                    <div>
+                                        <a rel='noreferrer' href={`${project.live}`} target='_blank' className='view-btn me-2 mt-3'><i class="fa-solid fa-eye"></i> Live</a>
+
+                                        <a rel='noreferrer' href={`${project.code}`} target='_blank' className='view-btn me-2 mt-3'><i class="fa-solid fa-code"></i> Code Link</a>
+
+                                        {
+                                            project.server && <a rel='noreferrer' href={`${project.server}`} target='_blank' className='view-btn me-2 mt-3'><i class="fa-solid fa-arrow-trend-up"></i> Server Link</a>
+                                        }
+                                    </div>
                                 </div>
                             </SwiperSlide>)
                         }
