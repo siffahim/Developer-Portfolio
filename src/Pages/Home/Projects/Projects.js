@@ -8,16 +8,25 @@ import { Swiper, SwiperSlide } from "swiper/react/swiper-react";
 import 'swiper/swiper-bundle.min.css';
 // swiper core styles
 import 'swiper/swiper.min.css';
+import ProjectModal from '../ProjectModal/ProjectModal';
 import './Projects.css';
 
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
+    const [show, setShow] = useState(false);
+
     useEffect(() => {
         fetch('/fackDb.json')
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [])
+
+    //modal 
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <div className='slider-container'>
             <div data-aos="fade-up" className='text-center mb-5'>
@@ -61,7 +70,10 @@ const Projects = () => {
                                     </div>
                                     <div className='my-3 lh-1'>
                                         <p className='text-light fs-6'>{project.name}</p>
-                                        <p className='text-light'>Lorem ipsum, dolor sit amet consectetur yess.</p>
+                                        <div>
+                                            <p className='text-light'>This web application create for react<button style={{ marginLeft: '-9px' }} className='btn text-light' onClick={handleShow}>...See More</button></p>
+
+                                        </div>
                                     </div>
                                     <div>
                                         <a rel='noreferrer' href={`${project.live}`} target='_blank' className='view-btn me-2 mt-3'><i class="fa-solid fa-eye"></i> Live</a>
@@ -78,6 +90,10 @@ const Projects = () => {
                     </Swiper>
                 </Col>
             </Row>
+            <ProjectModal
+                show={show}
+                handleClose={handleClose}
+            />
         </div>
     );
 };
