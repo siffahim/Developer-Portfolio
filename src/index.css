@@ -7,3 +7,23 @@ body {
   font-family: 'Ubuntu', sans-serif !important;
   background: linear-gradient(145deg, #1e2024, #23272b);
 }
+
+/*Scrollbar customize*/
+
+::-webkit-scrollbar {
+  width: 6px;
+  cursor: pointer !important;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(145deg, #f9004d, #fa4881);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #f9004fc5;
+}
