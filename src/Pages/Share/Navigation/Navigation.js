@@ -1,4 +1,3 @@
-import React from 'react';
 import { Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
@@ -15,7 +14,10 @@ const Navigation = () => {
 
     return (
         <Navbar className='px-4 header' sticky="top" variant='dark' collapseOnSelect expand="lg">
-            <Navbar.Brand href="#home"><span>𝐹𝒜𝐻𝐼𝑀</span></Navbar.Brand>
+            <Navbar.Brand className='lh-1' as={Link} to='/'>
+                <span>Fahim Personal Space</span>
+                <p style={{ fontSize: 12 }}>Digital Kwonledge Garden</p>
+            </Navbar.Brand>
             <Navbar.Toggle />
             <Navbar.Collapse>
                 <Nav className="mx-auto">
