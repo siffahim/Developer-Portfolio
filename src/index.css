@@ -13,6 +13,7 @@ body {
 ::-webkit-scrollbar {
   width: 5.8px;
   cursor: pointer !important;
+  overflow-x: hidden !important;
 }
 
 ::-webkit-scrollbar-track {
